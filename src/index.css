@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* Common Flag Style */
+.flag {
+  width: 450px;
+  height: 300px;
+  border: 2px solid black;
+  position: relative;
+  margin: 50px auto;
+  /* Center horizontally */
+}
+
+/* ---------- Yemen Flag ---------- */
+.yemen .stripe {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  left: 0;
+}
+
+.yemen .red {
+  top: 0;
+  background-color: #CE1126;
+}
+
+.yemen .white {
+  top: 100px;
+  background-color: #FFFFFF;
+}
+
+.yemen .black {
+  top: 200px;
+  background-color: #000000;
+}
+
+/* ---------- Palau Flag ---------- */
+.palau {
+  background-color: #4AADD6;
+}
+
+.palau .sun {
+  width: 140px;
+  height: 140px;
+  background-color: #FFDE00;
+  border-radius: 50%;
+  position: absolute;
+  top: 80px;
+  left: 120px;
+}
+
+/* ---------- Chad Flag ---------- */
+.chad .stripe {
+  width: 150px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.chad .blue {
+  left: 0;
+  background-color: #002664;
+}
+
+.chad .yellow {
+  left: 150px;
+  background-color: #FECB00;
+}
+
+.chad .red {
+  left: 300px;
+  background-color: #C60C30;
+}
